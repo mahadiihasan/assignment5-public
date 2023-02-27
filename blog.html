@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="bg-primary-subtle text-center">
+                <h2 class="mx-auto my-5">Some Important Question & Answers.</h2>
+            </div>
+        </div>        
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-5 border rounded p-4 mb-3 mx-auto">
+                    <h5>1. What is DOM and what is the purposes of DOM?</h5>
+                    <p>The Document Object Model (DOM) is a process in which the full html file is loaded as a Model of objects so that all the elements can be easily accessible. Using Javascript the DOM object can be modified dynamically.</p>
+                    <p>There are many purposes of DOM. Such as:-<br></p>
+                    <ol type="1">
+                        <li>HTML elements in the page can be changed dynamically using JavaScript.</li>
+                        <li>HTML attributes can be changed dynamically using JavaScript.</li>
+                        <li>CSS style can also be changed using DOM property.</li>
+                        <li>Can remove or add new HTML elements and attributes using DOM property.</li>
+                        <li>Various listener and actions can be added on various elements using selecting DOM elements using JavaScript.</li>
+                    </ol>
+                </div>
+                <div class="col-5 border rounded p-4 mb-3 mx-auto">
+                    <h5>2. How will you select HTML elements using DOM? Name the DOM methods.</h5>
+                    <p>There are 5 ways to select HTML elements using DOM property. They are :-</p>
+                    <ul style="list-style-type: square;">
+                        <li>getElementsByTagName()</li>
+                        <li>getElementsByClassName()</li>
+                        <li>getElementByID()</li>
+                        <li>querySelector()</li>
+                        <li>querySelectorAll()</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5 border rounded p-4 mx-auto">
+                    <h5>3. What is event bubble?</h5>
+                    <p>Event Bubble is a concept of DOM where any element receives any event and it bubbles up or propagate until it finds its parent or ancestor. Using <b>stopPropagation() </b>method, we can stop event bubbling. To find out the root of any element, we can use event bubble concept.</p>
+                </div>
+                <div class="col-5 border rounded p-4 mx-auto">
+                    <h5>4. What is a callback function and why will you use it?</h5>
+                    <p>A <b>callback </b>function is a function which will be executed after executing another function. On other words, Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function.</p>
+
+                    <p>const button = document.getElementById('button');<br>
+                    function callback(){<br>console.log("Hello world");<br>}<br>button.addEventListener('click',callback);</p>
+
+                    Here, eventListener() function passed another function <b>callback</b> as an argument. So, <b>callback() </b> is the callback function here.
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>

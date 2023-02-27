@@ -1,0 +1,73 @@
+.container{
+
+    margin-top: 5rem;
+}
+
+#triangle{
+
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.bg-primary-subtle{
+
+    display: flex;
+}
+
+#rectangle{
+
+    width: 80%;
+    margin: 3rem auto;
+}
+#parallelogram{
+
+    width: 80%;
+    margin: 3rem auto;
+}
+#rhombus{
+
+    width: 60%;
+    margin: 3rem auto;
+}
+
+#pentagon{
+
+    width: 50%;
+    margin: 3rem auto;
+}
+#ellipse{
+
+    width: 80%;
+    margin: 3rem auto;
+}
+
+#triangle-div{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+input{
+
+    width: 20%;
+
+}
+
+#rectangle-div{
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#display-card{
+
+    height: 100%;
+
+}
+
+h6{
+
+    margin-top: 2rem;
+}
